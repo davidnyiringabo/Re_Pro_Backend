@@ -28,6 +28,7 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
     "start": "cd socketServer && nodemon index.ts",
     "server": "npm i && tsc && nodemon dist/index.ts",
