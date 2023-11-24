@@ -27,7 +27,7 @@
   },
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "cd socketServer && nodemon index.js",
     "server": "npm i && tsc && nodemon dist/index.js",
